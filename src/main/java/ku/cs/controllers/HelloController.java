@@ -1,4 +1,4 @@
-package ku.cs.basicjavafx;
+package ku.cs.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
