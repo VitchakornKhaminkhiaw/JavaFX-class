@@ -53,4 +53,10 @@ public class Student {
                 ", score: " + score +
                 '}';
     }
+
+    public Student(String id, String name, double score) {
+        this.id = id;
+        this.name = name;
+        this.score = score;
+    }
 }

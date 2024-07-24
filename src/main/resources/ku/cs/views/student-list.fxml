@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.control.TextField?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.StudentListController">
    <children>
@@ -58,6 +58,6 @@
       </Label>
       <TextField fx:id="giveScoreTextField" layoutX="468.0" layoutY="230.0" prefHeight="11.0" prefWidth="76.0" />
       <Button layoutX="549.0" layoutY="230.0" mnemonicParsing="false" onAction="#onGiveScoreButtonClick" prefHeight="25.0" prefWidth="41.0" text="OK" />
-      <Label fx:id="errorLabel" layoutX="468.0" layoutY="256.0" text="errorLabel" textFill="#807908" />
+      <Label fx:id="errorLabel" layoutX="468.0" layoutY="256.0" text="errorLabel" textFill="RED" />
    </children>
 </AnchorPane>
